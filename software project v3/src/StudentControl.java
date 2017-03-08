@@ -22,7 +22,7 @@ public class StudentControl {
 		obj.addStudent(object);
 		
 	}
-	public void play(Student object)    //???
+	public void play(Student object)   
 	{
 		
 	}
