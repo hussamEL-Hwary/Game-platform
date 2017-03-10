@@ -51,7 +51,8 @@ public class RegistrationController {
      }
      return check;
 }
-     public static boolean checkEmailExistence ( String Name ,String Email , String Password ,int Age , char Gender , boolean Teacher ) throws FileNotFoundException
+     
+public static boolean checkEmailExistence ( String Name ,String Email , String Password ,int Age , char Gender , boolean Teacher ) throws FileNotFoundException
     {
       boolean check = false;
      
