@@ -25,7 +25,7 @@ public class RegistrationTest {
   @DataProvider(name="createStudentAccountData")
   public Object[][] GetcreateStudentAccountData()
   {
-	  return new Object[][]{{true,"Hussam","hossam@gmail.com","123456",20,'m'},{false,"youef","omar@yahoo.com","1234",15,'m'}};
+	  return new Object[][]{{true,"Hussam","hossam@gmail.com","123456",20,'m'},{false,"youef","omar@yahoo.com","1234",15,'m'},{false,"youef","","1234",15,'m'}};
   }
 	
   @DataProvider(name="createTeacherAccountData")
@@ -35,14 +35,14 @@ public class RegistrationTest {
   }
   
   
-  @Test(enabled=false, dataProvider ="createStudentAccountData")
+  @Test(enabled=true, dataProvider ="createStudentAccountData")
   public void createStudentAccount(boolean result,String name, String mail, String password, int age, char gender) throws FileNotFoundException {
     Assert.assertEquals(result, Registration.createStudentAccount(name, mail, password, age, gender));
   }
   
   
 
-  @Test(dataProvider="createTeacherAccountData")
+  @Test( enabled=false,dataProvider="createTeacherAccountData")
   public void createTeacherAccount(boolean result,String name, String mail, String password, int age, char gender) throws FileNotFoundException {
 	  Assert.assertEquals(result,Registration.createTeacherAccount(name, mail, password, age, gender) );
   }

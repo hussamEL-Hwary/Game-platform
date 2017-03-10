@@ -4,3 +4,4 @@ Technology;y;Saleh;18/12/2016;True Or False;3;What is your name;T/F;F;What is yo
 Technology;a;saleh;Wed Dec 21 22:08:45 GMT+02:00 2016;True Or False;3;1;T/F;T;2;T/F;T;3;T/F;F
 Math;333;saleh;Wed Dec 21 22:49:03 GMT+02:00 2016;True Or False;3;1;T/F;T;1;T/F;T;1;T/F;T
 Math;koko;saleh;Fri Mar 10 14:23:21 EET 2017;True Or False;2;lolo;T/F;T;lolo;T/F;T
+math;pazzle;saleh;10/3/2017;MCQ;1;What is your goal;h/n/j/p;j

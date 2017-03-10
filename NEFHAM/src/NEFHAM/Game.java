@@ -121,7 +121,8 @@ public class Game {
             
             return check ;
         }
-     public static String playGame(String Name) throws FileNotFoundException {
+    
+        public static String playGame(String Name) throws FileNotFoundException {
 
            File games = new File("Games.txt");
             Scanner getData= new Scanner(games);

@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="NEFHAM.NEFHAM.RegistrationTest">
+      <class name="NEFHAM.NEFHAM.GameTest">
         <methods>
-          <include name="createTeacherAccount" invocation-numbers="0"/>
+          <include name="playGame" invocation-numbers="1"/>
+          <include name="createGame" invocation-numbers="0"/>
         </methods>
-      </class> <!-- NEFHAM.NEFHAM.RegistrationTest -->
+      </class> <!-- NEFHAM.NEFHAM.GameTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
